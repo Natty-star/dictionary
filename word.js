@@ -9,7 +9,7 @@ var db = mysql.createConnection({
 
 module.exports = db;
 
-// con.connect(function (err) {
+// db.connect(function (err) {
 //   if (err) throw err;
 //   console.log("Connected!");
 //   con.query("SELECT * FROM entries LIMIT 5", function (err, result) {

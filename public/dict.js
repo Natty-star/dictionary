@@ -23,7 +23,7 @@ function loadDefination(data) {
     $(".defination").html("<p>This word not found</p>");
   } else {
     for (let i in data) {
-      let output = `<em>${data[i].wordtype}</em> ${data[i].definition}`;
+      let output = `<strong>${data[i].wordtype}</strong> ${data[i].definition}`;
       let result = $("<p></p>").html(output);
       $(".defination").append(result);
       //console.log(data[i].definition);
